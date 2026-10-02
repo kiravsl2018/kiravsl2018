@@ -2,15 +2,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:8b5cf6&height=180&section=header&text=Miguel&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=SysAdmin%20%7C%20Homelabber%20%7C%20DAW%20Developer&descAlignY=55&descAlign=50" />
 </div>
 
-
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Estudiante+de+Desarrollo+de+Aplicaciones+Web;Técnico++en+Sistemas+(SMR);Apasionado+del+Homelab+y+Docker;Configurando+servidores,+redes+y+código" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Estudiante+de+Desarrollo+de+Aplicaciones+Web;Técnico+Superior+en+Sistemas+(SMR);Apasionado+del+Homelab+y+Docker;Configurando+servidores,+redes+y+código" alt="Typing SVG" />
   </a>
 </div>
 
 <br>
-
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
@@ -18,7 +16,7 @@
       <h2>🚀 Sobre mí</h2>
       <ul>
         <li>🎓 Titulado en <b>SMR</b>, actualmente cursando el Grado Superior en <b>DAW</b>.</li>
-        <li>🖥️️ Gestiono mi propio <b>Homelab</b>: contenedores Docker, WireGuard, Nginx Proxy Manager y monitorización con el stack ELK.</li>
+        <li>🖥 Gestiono mi propio <b>Homelab</b>: contenedores Docker, WireGuard, Nginx Proxy Manager y monitorización con el stack ELK.</li>
         <li>📝 Fanático de la productividad y la organización personal utilizando <b>Obsidian</b> (con plugins como Dataview) y bases de datos en <b>Notion</b>.</li>
         <li>⚙️ Disfruto montando hardware, configurando switches UniFi y optimizando sistemas Linux (Debian/Ubuntu).</li>
         <li>🎮 En mis ratos libres administro servidores de Minecraft con mods, ajustando configuraciones y optimizando el rendimiento.</li>
@@ -36,7 +34,6 @@
 <br>
 
 <h2 align="center">🧰 Arsenal Tecnológico</h2>
-
 
 <div align="center">
   <h3>💻 Desarrollo Web</h3>
