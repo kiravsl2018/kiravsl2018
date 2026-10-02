@@ -1,136 +1,272 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:8b5cf6&height=200&section=header&text=Miguel&fontSize=56&fontAlignY=36&animation=fadeIn&fontColor=ffffff&desc=SysAdmin%20%7C%20Homelabber%20%7C%20DAW%20Developer&descAlignY=58&descSize=20" alt="Miguel - SysAdmin, Homelabber y DAW Developer" width="100%" />
+  <img src="assets/banner.svg" alt="Miguel - SysAdmin, Homelabber y DAW Developer" width="100%" />
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Estudiante+de+Desarrollo+de+Aplicaciones+Web;T%C3%A9cnico+Superior+en+Sistemas+(SMR);Apasionado+del+Homelab+y+Docker;Configurando+servidores%2C+redes+y+c%C3%B3digo" alt="Typing SVG" />
-  </a>
+
+[![SMR](https://img.shields.io/badge/Titulado-SMR-3b82f6?style=flat-square&labelColor=0d1117)](#)
+[![DAW](https://img.shields.io/badge/Cursando-DAW-8b5cf6?style=flat-square&labelColor=0d1117)](#)
+[![Homelab](https://img.shields.io/badge/Homelab-activo-22c55e?style=flat-square&labelColor=0d1117&logo=docker&logoColor=white)](#)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu_%7C_Debian-E95420?style=flat-square&labelColor=0d1117&logo=linux&logoColor=white)](#)
+[![Minecraft](https://img.shields.io/badge/Minecraft-modded-388E3C?style=flat-square&labelColor=0d1117&logo=minecraft&logoColor=white)](#)
+
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Titulado-SMR-3b82f6?style=for-the-badge" alt="SMR" />
-  <img src="https://img.shields.io/badge/Cursando-DAW-8b5cf6?style=for-the-badge" alt="DAW" />
-  <img src="https://img.shields.io/badge/Homelab-Activo-2ea44f?style=for-the-badge&logo=docker&logoColor=white" alt="Homelab activo" />
-  <img src="https://img.shields.io/badge/Linux-Debian_%2F_Ubuntu-E95420?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
+  <img src="assets/terminal.svg" alt="Terminal con mi información" width="100%" />
 </div>
 
 <br>
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="65%" valign="top">
-      <h2>🚀 Sobre mí</h2>
-      <ul>
-        <li>🎓 Titulado en <b>SMR</b> y ahora cursando el Grado Superior en <b>DAW</b>.</li>
-        <li>🖥 Gestiono mi propio <b>homelab</b>: contenedores Docker, acceso remoto cifrado, proxy inverso y monitorización con el stack ELK.</li>
-        <li>📝 Fanático de la productividad: llevo mis apuntes en <b>Obsidian</b> (con Dataview y compañía) y mis bases de datos en <b>Notion</b>.</li>
-        <li>⚙️ Disfruto montando hardware, configurando switches UniFi y optimizando sistemas Linux.</li>
-        <li>🎮 En mis ratos libres administro servidores de <b>Minecraft con mods</b>, ajustando configuraciones y rendimiento.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="top">
-      <br>
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="130" />
-      <br><br>
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="80" />
-    </td>
-  </tr>
-</table>
+<img src="assets/divider.svg" width="100%" alt="" />
 
----
+## `~/sobre-mi`
 
-<h2 align="center">🧰 Arsenal tecnológico</h2>
+```json
+{
+  "nombre": "Miguel",
+  "roles": ["SysAdmin", "Homelabber", "DAW Developer"],
+  "formacion": {
+    "titulado": "SMR - Sistemas Microinformáticos y Redes",
+    "cursando": "DAW - Desarrollo de Aplicaciones Web"
+  },
+  "obsesiones": ["Docker", "Linux", "redes", "organización personal"],
+  "disfruta": [
+    "montar hardware",
+    "configurar switches UniFi",
+    "optimizar sistemas Linux",
+    "administrar servidores de Minecraft con mods"
+  ],
+  "lema": "romper cosas, arreglarlas y apuntar cómo lo hice"
+}
+```
 
-<div align="center">
-  <h3>💻 Desarrollo web</h3>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+> [!NOTE]
+> Todo lo que aprendo en clase lo pruebo después en mi homelab, y todo lo que rompo en el homelab acaba documentado en mis apuntes.
 
-  <h3>🐧 Infraestructura, DevOps y redes</h3>
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/WireGuard-881798?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard" />
-  <img src="https://img.shields.io/badge/Tailscale-4B5563?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale" />
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-  <img src="https://img.shields.io/badge/Ubiquiti-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white" alt="Ubiquiti" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-  <h3>🛠 Productividad y herramientas</h3>
-  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</div>
+## `~/skills`
 
----
+**💻 Desarrollo**
 
-<h2 align="center">🏠 Mi homelab</h2>
+<p>
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,mysql&theme=dark" alt="Java, JavaScript, HTML, CSS y MySQL" />
+</p>
 
-<div align="center">
-  <sub>Un servidor casero sobre Ubuntu Server donde practico lo que aprendo en clase.</sub>
-</div>
+**🐧 Sistemas, contenedores y redes**
 
-<br>
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,docker,nginx,elasticsearch&theme=dark" alt="Linux, Ubuntu, Debian, Bash, Docker, Nginx y Elasticsearch" />
+</p>
+
+![WireGuard](https://img.shields.io/badge/WireGuard-881798?style=flat-square&logo=wireguard&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-4B5563?style=flat-square&logo=tailscale&logoColor=white)
+![UniFi](https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=flat-square&logo=portainer&logoColor=white)
+![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
+
+**🛠 Herramientas y productividad**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,git,github,obsidian,notion&theme=dark" alt="VS Code, Git, GitHub, Obsidian y Notion" />
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `~/homelab`
+
+Un servidor casero sobre **Ubuntu Server** que funciona como mi campo de pruebas.
 
 ```mermaid
 flowchart LR
-    A([Yo, desde cualquier sitio]) -->|Túnel cifrado| B[Red privada mesh]
-    B --> C[Proxy inverso]
-    C --> D[Paneles Homepage<br/>User / Admin]
-    C --> E[Nube personal]
-    C --> F[Gestor de contraseñas]
-    C --> G[Servidor de Minecraft]
-    D -.-> H[(Copias de seguridad<br/>incrementales)]
+    subgraph EXT[Fuera de casa]
+        ME([Yo])
+    end
+    subgraph NET[Red privada cifrada]
+        TS{{Tailscale / WireGuard}}
+    end
+    subgraph SRV[Ubuntu Server + Docker]
+        DNS[AdGuard Home]
+        NPM[Nginx Proxy Manager]
+        subgraph UI[Paneles]
+            HU[Homepage User]
+            HA[Homepage Admin]
+        end
+        subgraph APPS[Servicios]
+            NC[Nextcloud]
+            VW[Vaultwarden]
+            NO[NocoDB]
+            MC[Minecraft]
+        end
+        PT[Portainer]
+        KO[(Kopia)]
+    end
+    ME --> TS --> NPM
+    DNS -.-> NPM
+    NPM --> UI
+    NPM --> APPS
+    HA --> PT
+    APPS -.->|snapshots| KO
+
+    style TS fill:#8b5cf6,stroke:#c4b5fd,color:#fff
+    style NPM fill:#3b82f6,stroke:#93c5fd,color:#fff
+    style KO fill:#22c55e,stroke:#86efac,color:#fff
 ```
 
-| 🧩 Pieza | 🔧 Tecnología |
+```text
+$ docker ps --format "table {{.Names}}\t{{.Image}}"
+NAMES                  ROL
+nginx-proxy-manager    Proxy inverso
+adguard-home           DNS local y filtrado
+portainer              Gestión de contenedores
+homepage-user          Panel de usuario
+homepage-admin         Panel de administración
+nextcloud              Nube personal
+vaultwarden            Gestor de contraseñas
+nocodb                 Bases de datos con interfaz visual
+kopia                  Copias de seguridad
+minecraft              Servidor con mods
+```
+
+<details>
+<summary><b>🎨 Detalle: los dos Homepage con estilo glassmorphism</b></summary>
+
+<br>
+
+Monté **dos paneles** con [Homepage](https://gethomepage.dev/) para separar lo cotidiano de lo crítico:
+
+| Panel | Para qué sirve |
 |---|---|
-| Contenedores | Docker y Docker Compose, gestionados con Portainer |
-| Proxy inverso | Nginx Proxy Manager |
-| DNS y filtrado | AdGuard Home |
-| Acceso remoto | Tailscale / WireGuard, sin abrir puertos en el router |
-| Servicios | Nextcloud, Vaultwarden, NocoDB, Minecraft con mods |
-| Dashboards | Dos instancias de Homepage (User y Admin) con estética *glassmorphism* |
-| Copias de seguridad | Kopia (snapshots deduplicados) |
-| Monitorización | Stack ELK |
+| 🙋 **User** | Accesos a servicios del día a día, sin exponer nada de administración |
+| 🛡 **Admin** | Portainer, Kopia, Nginx Proxy Manager, métricas del host y estado de contenedores |
 
-> [!TIP]
-> Llevo un diario de todo lo que monto, rompo y arreglo en mi servidor. Cada error documentado es una lección que no se me olvida.
+El diseño usa `custom.css` con `backdrop-filter: blur`, bordes translúcidos y tarjetas flotantes. Curiosidad: Homepage está hecha con Next.js, así que no hay ningún `.html` que editar; todo se controla con `.yaml` y CSS.
 
----
+</details>
 
-<h2 align="center">🎯 Ahora mismo</h2>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <h3>📚 Estudiando</h3>
-      Grado Superior en <b>DAW</b>: Java, HTML, CSS, JavaScript y bases de datos MySQL.
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🔬 Practicando</h3>
-      Docker, redes, proxies inversos, VPN mesh y copias de seguridad en mi homelab.
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🧠 Organizándome</h3>
-      Apuntes y documentación en <b>Obsidian</b> y bases de datos en <b>Notion</b>.
-    </td>
-  </tr>
-</table>
+## `~/camino`
 
----
+```mermaid
+timeline
+    title Mi recorrido
+    SMR : Sistemas, redes y hardware
+        : Linux y administración
+    Homelab : Docker y proxy inverso
+            : VPN mesh y copias de seguridad
+            : Servidores de Minecraft con mods
+    DAW : Java, HTML, CSS y JavaScript
+        : Bases de datos con MySQL
+    Siguiente : Unir sistemas y desarrollo
+```
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `~/retos-resueltos`
+
+Los errores que más me han enseñado, y cómo salí de ellos:
+
+<details>
+<summary><b>🔥 Nginx no arrancaba por un upstream huérfano</b></summary>
+
+<br>
+
+Tras reorganizar contenedores, quedó un proxy host apuntando a un servicio de autenticación que ya no existía y Nginx abortaba el arranque.
+
+```text
+nginx: [emerg] host not found in upstream "authelia"
+```
+
+**Solución:** probar la configuración con `nginx -t`, renombrar el archivo afectado a `.disabled` y recargar en caliente con `nginx -s reload`.
+
+</details>
+
+<details>
+<summary><b>🌐 Conectar a mi red privada desde una red restringida</b></summary>
+
+<br>
+
+Desde una red con proxy y cortafuegos fallaron, uno tras otro, la autenticación (403), un registro de nodo duplicado y el DNS.
+
+- **403 en el login:** hacerlo desde otra red o saltarse el navegador con una Auth Key.
+- **`nodekey already exists`:** `tailscale logout` y reautenticar con `--force-reauth`.
+- **Sin internet al conectar:** evitar que la VPN sustituya el DNS con `--accept-dns=false`.
+
+**Lección:** probar por IP antes que por dominio separa los problemas de red de los de DNS.
+
+</details>
+
+<details>
+<summary><b>💾 Que las copias de seguridad no mientan</b></summary>
+
+<br>
+
+Al mover y borrar carpetas, las políticas de Kopia apuntaban a rutas que ya no existían. Limpié los snapshots huérfanos y lancé uno manual para dejar guardado el estado bueno.
+
+**Regla:** cada reorganización termina con revisión de rutas y un snapshot manual.
+
+</details>
+
+<details>
+<summary><b>🧱 Permisos rotos y base de datos en solo lectura</b></summary>
+
+<br>
+
+Borrar carpetas que alojaban volúmenes de Docker dejó a Nginx Proxy Manager con la base de datos en modo lectura (errores 502 y 403).
+
+**Solución:** parar el stack, reajustar propietarios y permisos, limpiar redes huérfanas y volver a levantarlo.
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `~/mapa-mental`
+
+```mermaid
+mindmap
+  root((Miguel))
+    Sistemas
+      Ubuntu Server
+      Debian
+      Docker
+      Nginx Proxy Manager
+    Redes
+      UniFi
+      Tailscale
+      WireGuard
+      DNS con AdGuard
+    Desarrollo
+      Java
+      HTML y CSS
+      JavaScript
+      MySQL
+    Productividad
+      Obsidian
+      Notion
+      Git y GitHub
+    Ocio
+      Minecraft con mods
+      Montar hardware
+```
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `~/ahora`
+
+| 📚 Estudiando | 🔬 Practicando | 🧠 Organizando |
+|:---:|:---:|:---:|
+| Grado Superior en **DAW** | Docker, redes, VPN y backups en mi homelab | Apuntes en **Obsidian** y bases de datos en **Notion** |
+
+<br>
 
 <div align="center">
   <sub>💜 Gracias por pasarte por mi perfil · Siempre aprendiendo, siempre rompiendo y arreglando cosas</sub>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:3b82f6&height=120&section=footer" alt="Footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:3b82f6&height=120&section=footer" alt="" width="100%" />
 </div>
