@@ -11,8 +11,13 @@ Bienvenidos a mi perfil de GitHub.
 - **Desarrollo:** Java, HTML, CSS, JavaScript
 - **Sistemas y DevOps:** Git, Docker, Linux
 
-### ⚡ Estadísticas de GitHub
+### 🛠️ Tecnologías y Herramientas
+
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=kiravs12018&show_icons=true&theme=radical" alt="Estadísticas de Miguel" width="400"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
