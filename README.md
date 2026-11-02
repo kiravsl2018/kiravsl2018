@@ -233,10 +233,7 @@ timeline
 
 Los errores que más me han enseñado, y cómo salí de ellos:
 
-<details>
-<summary><b>🔥 Nginx no arrancaba por un upstream huérfano</b></summary>
-
-<br>
+### 🔥 Nginx no arrancaba por un upstream huérfano
 
 > [!CAUTION]
 > Tras reorganizar contenedores, quedó un proxy host apuntando a un servicio de autenticación que ya no existía y Nginx abortaba el arranque.
@@ -248,12 +245,7 @@ Los errores que más me han enseñado, y cómo salí de ellos:
 > [!TIP]
 > **Solución:** probar la configuración con `nginx -t`, renombrar el archivo afectado a `.disabled` y recargar en caliente con `nginx -s reload`.
 
-</details>
-
-<details>
-<summary><b>🌐 Conectar a mi red privada desde una red restringida</b></summary>
-
-<br>
+### 🌐 Conectar a mi red privada desde una red restringida
 
 > [!CAUTION]
 > Desde una red con proxy y cortafuegos fallaron, uno tras otro, la autenticación (403), un registro de nodo duplicado y el DNS.
@@ -266,12 +258,7 @@ Los errores que más me han enseñado, y cómo salí de ellos:
 > [!IMPORTANT]
 > **Lección:** probar por IP antes que por dominio separa los problemas de red de los de DNS.
 
-</details>
-
-<details>
-<summary><b>💾 Que las copias de seguridad no mientan</b></summary>
-
-<br>
+### 💾 Que las copias de seguridad no mientan
 
 > [!WARNING]
 > Al mover y borrar carpetas, las políticas de Kopia apuntaban a rutas que ya no existían. Limpié los snapshots huérfanos y lancé uno manual para dejar guardado el estado bueno.
@@ -279,12 +266,7 @@ Los errores que más me han enseñado, y cómo salí de ellos:
 > [!IMPORTANT]
 > **Regla:** cada reorganización termina con revisión de rutas y un snapshot manual.
 
-</details>
-
-<details>
-<summary><b>🧱 Permisos rotos y base de datos en solo lectura</b></summary>
-
-<br>
+### 🧱 Permisos rotos y base de datos en solo lectura
 
 > [!CAUTION]
 > Borrar carpetas que alojaban volúmenes de Docker dejó a Nginx Proxy Manager con la base de datos en modo lectura (errores 502 y 403).
@@ -292,20 +274,13 @@ Los errores que más me han enseñado, y cómo salí de ellos:
 > [!TIP]
 > **Solución:** parar el stack, reajustar propietarios y permisos, limpiar redes huérfanas y volver a levantarlo.
 
-</details>
-
-<details>
-<summary><b>📚 Organizar un curso entero sin perder entregas</b></summary>
-
-<br>
+### 📚 Organizar un curso entero sin perder entregas
 
 > [!NOTE]
 > Con ocho asignaturas a la vez necesitaba ver de un vistazo qué tocaba y qué había que entregar. Monté en Obsidian un panel de inicio que lee el horario y las tareas de cada asignatura y me enseña la clase de ahora, la siguiente y lo que vence en las próximas semanas.
 
 > [!TIP]
 > **Solución:** una carpeta por asignatura, plantillas para teoría, actividades, prácticas y exámenes, y etiquetas + fechas en cada nota para que el panel lo encuentre todo solo.
-
-</details>
 
 <br>
 
