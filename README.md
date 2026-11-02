@@ -5,11 +5,23 @@
 <div align="center">
 
 [![SMR](https://img.shields.io/badge/Titulado-SMR-3b82f6?style=flat-square&labelColor=0d1117)](#)
-[![DAW](https://img.shields.io/badge/Cursando-DAW-8b5cf6?style=flat-square&labelColor=0d1117)](#)
-[![Homelab](https://img.shields.io/badge/Homelab-activo-22c55e?style=flat-square&labelColor=0d1117&logo=docker&logoColor=white)](#)
+[![DAW](https://img.shields.io/badge/Cursando-DAW-8b5cf6?style=flat-square&labelColor=0d1117)](https://github.com/kiravsl2018/Obsidian-GitHub)
+[![Homelab](https://img.shields.io/badge/Homelab-activo-22c55e?style=flat-square&labelColor=0d1117&logo=docker&logoColor=white)](https://github.com/kiravsl2018/HOMELAB-My-Own-Server)
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu_%7C_Debian-E95420?style=flat-square&labelColor=0d1117&logo=linux&logoColor=white)](#)
 [![Minecraft](https://img.shields.io/badge/Minecraft-modded-388E3C?style=flat-square&labelColor=0d1117&logo=minecraft&logoColor=white)](#)
 
+</div>
+
+<div align="center">
+  <sub>
+    <a href="#sobre-mi">sobre mí</a> ·
+    <a href="#proyectos">proyectos</a> ·
+    <a href="#skills">skills</a> ·
+    <a href="#homelab">homelab</a> ·
+    <a href="#camino">camino</a> ·
+    <a href="#retos-resueltos">retos resueltos</a> ·
+    <a href="#ahora">ahora</a>
+  </sub>
 </div>
 
 <br>
@@ -45,6 +57,29 @@
 
 > [!NOTE]
 > Todo lo que aprendo en clase lo pruebo después en mi homelab, y todo lo que rompo en el homelab acaba documentado en mis apuntes.
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `~/proyectos`
+
+Los dos repositorios donde vive casi todo lo que hago: uno para lo que monto en casa y otro para lo que aprendo en clase.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kiravsl2018/HOMELAB-My-Own-Server"><img src="assets/card-homelab.svg" alt="HOMELAB-My-Own-Server: bitácora de mi servidor casero" width="100%" /></a>
+      <br>
+      <b>🖥 <a href="https://github.com/kiravsl2018/HOMELAB-My-Own-Server">HOMELAB-My-Own-Server</a></b><br>
+      <sub>El diario de mi servidor con Ubuntu Server y Docker: arquitectura, servicios, cada avería con su causa y su solución, y las lecciones que me dejó. Sin IPs, puertos ni datos de mi red.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kiravsl2018/Obsidian-GitHub"><img src="assets/card-obsidian.svg" alt="Obsidian-GitHub: mi bóveda de apuntes de DAW" width="100%" /></a>
+      <br>
+      <b>💎 <a href="https://github.com/kiravsl2018/Obsidian-GitHub">Obsidian-GitHub</a></b><br>
+      <sub>Mi bóveda de Obsidian del Grado Superior en DAW: temario, actividades y exámenes por asignatura, un panel de control hecho con Dataview y un .zip listo para abrir con todos los plugins y estilos.</sub>
+    </td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -147,6 +182,9 @@ El diseño usa `custom.css` con `backdrop-filter: blur`, bordes translúcidos y 
 
 </details>
 
+> [!TIP]
+> La bitácora completa del servidor, con cada fase, los comandos y la tabla de averías, está en **[HOMELAB-My-Own-Server](https://github.com/kiravsl2018/HOMELAB-My-Own-Server)**.
+
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## `~/camino`
@@ -212,6 +250,19 @@ Al mover y borrar carpetas, las políticas de Kopia apuntaban a rutas que ya no 
 </details>
 
 <details>
+<summary><b>📚 Organizar un curso entero sin perder entregas</b></summary>
+
+<br>
+
+Con ocho asignaturas a la vez necesitaba ver de un vistazo qué tocaba y qué había que entregar. Monté en Obsidian un panel de inicio que lee el horario y las tareas de cada asignatura y me enseña la clase de ahora, la siguiente y lo que vence en las próximas semanas.
+
+**Solución:** una carpeta por asignatura, plantillas para teoría, actividades, prácticas y exámenes, y etiquetas + fechas en cada nota para que el panel lo encuentre todo solo.
+
+</details>
+
+<sub>📖 Los retos del servidor están contados paso a paso, con los comandos, en la <a href="https://github.com/kiravsl2018/HOMELAB-My-Own-Server#-bitácora">bitácora del homelab</a>.</sub>
+
+<details>
 <summary><b>🧱 Permisos rotos y base de datos en solo lectura</b></summary>
 
 <br>
@@ -259,7 +310,7 @@ mindmap
 
 | 📚 Estudiando | 🔬 Practicando | 🧠 Organizando |
 |:---:|:---:|:---:|
-| Grado Superior en **DAW** | Docker, redes, VPN y backups en mi homelab | Apuntes en **Obsidian** y bases de datos en **Notion** |
+| Grado Superior en **DAW** | Docker, redes, VPN y backups en mi [homelab](https://github.com/kiravsl2018/HOMELAB-My-Own-Server) | Apuntes en **[Obsidian](https://github.com/kiravsl2018/Obsidian-GitHub)** y bases de datos en **Notion** |
 
 <br>
 

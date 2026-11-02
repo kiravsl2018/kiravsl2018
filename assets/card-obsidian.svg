@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" width="480" height="200" role="img" aria-label="Proyecto: Obsidian-GitHub, mis apuntes de DAW">
+  <defs>
+    <linearGradient id="obg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#170f2b"/>
+    </linearGradient>
+    <linearGradient id="oborder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A36CB"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#7A36CB"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="477" height="197" rx="14" fill="url(#obg)" stroke="url(#oborder)" stroke-width="2"/>
+  <circle cx="420" cy="50" r="46" fill="#7A36CB" fill-opacity="0.14">
+    <animate attributeName="r" values="46;52;46" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- icono gema (genérico, estilo bóveda) -->
+  <g transform="translate(30 26)">
+    <path d="M20 0 L40 18 L32 54 L8 54 L0 18 Z" fill="url(#gem)" fill-opacity="0.9"/>
+    <path d="M20 0 L26 30 L32 54 M20 0 L14 30 L8 54 M0 18 L14 30 L26 30 L40 18" fill="none" stroke="#0d1117" stroke-opacity="0.45" stroke-width="1.5"/>
+  </g>
+
+  <!-- mini grafo de notas -->
+  <g stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.2">
+    <line x1="392" y1="40" x2="430" y2="62"/>
+    <line x1="430" y1="62" x2="408" y2="92"/>
+    <line x1="392" y1="40" x2="408" y2="92"/>
+    <line x1="430" y1="62" x2="456" y2="36"/>
+  </g>
+  <g fill="#c4b5fd">
+    <circle cx="392" cy="40" r="4"/><circle cx="430" cy="62" r="5"><animate attributeName="r" values="5;6.5;5" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="408" cy="92" r="3.5"/><circle cx="456" cy="36" r="3"/>
+  </g>
+
+  <g font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace">
+    <text x="88" y="46" font-size="20" font-weight="700" fill="#e6edf3">Obsidian-GitHub</text>
+    <text x="88" y="70" font-size="13" fill="#8b949e">Mi bóveda de apuntes de DAW</text>
+
+    <text x="28" y="116" font-size="14" fill="#c9d1d9">Temario, actividades y exámenes de 1º DAW,</text>
+    <text x="28" y="136" font-size="14" fill="#c9d1d9">con panel de control y backup plug and play.</text>
+
+    <g font-size="12">
+      <rect x="28" y="156" width="84" height="24" rx="12" fill="#7A36CB" fill-opacity="0.2" stroke="#7A36CB" stroke-opacity="0.7"/>
+      <text x="70" y="172" text-anchor="middle" fill="#d4c4ff">Obsidian</text>
+      <rect x="120" y="156" width="84" height="24" rx="12" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-opacity="0.6"/>
+      <text x="162" y="172" text-anchor="middle" fill="#9cc3ff">Dataview</text>
+      <rect x="212" y="156" width="84" height="24" rx="12" fill="#ec4899" fill-opacity="0.18" stroke="#ec4899" stroke-opacity="0.6"/>
+      <text x="254" y="172" text-anchor="middle" fill="#ffb3d6">Markdown</text>
+      <rect x="304" y="156" width="72" height="24" rx="12" fill="#a3e635" fill-opacity="0.15" stroke="#a3e635" stroke-opacity="0.6"/>
+      <text x="340" y="172" text-anchor="middle" fill="#d9f99d">9 plugins</text>
+    </g>
+    <text x="452" y="174" text-anchor="end" font-size="13" fill="#a78bfa">ver →</text>
+  </g>
+</svg>
