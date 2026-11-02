@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" role="img" aria-label="docker ps: los contenedores de mi homelab y su rol">
+  <defs><clipPath id="r0"><rect x="30" y="129" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="1.20s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r1"><rect x="30" y="159" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="1.45s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r2"><rect x="30" y="189" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="1.70s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r3"><rect x="30" y="219" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="1.95s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r4"><rect x="30" y="249" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="2.20s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r5"><rect x="30" y="279" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="2.45s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r6"><rect x="30" y="309" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="2.70s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r7"><rect x="30" y="339" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="2.95s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r8"><rect x="30" y="369" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="3.20s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="r9"><rect x="30" y="399" width="0" height="30"><animate attributeName="width" from="0" to="940" begin="3.45s" dur=".4s" fill="freeze"/></rect></clipPath><clipPath id="cmd"><rect x="30" y="60" width="0" height="30"><animate attributeName="width" from="0" to="940" begin=".2s" dur=".8s" fill="freeze"/></rect></clipPath></defs>
+  <rect x="1" y="1" width="998" height="478" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M1 15 Q1 1 15 1 H985 Q999 1 999 15 V42 H1 Z" fill="#161b22"/>
+  <circle cx="26" cy="22" r="6.5" fill="#ff5f56"/><circle cx="48" cy="22" r="6.5" fill="#ffbd2e"/><circle cx="70" cy="22" r="6.5" fill="#27c93f"/>
+  <text x="500" y="27" text-anchor="middle" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">miguel@homelab: ~</text>
+  <g font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15">
+    <text x="32" y="80" clip-path="url(#cmd)" xml:space="preserve"><tspan fill="#22c55e">$</tspan><tspan fill="#e6edf3"> docker ps --format "table {{.Names}}\t{{.Image}}"</tspan></text>
+    <text x="72" y="116" fill="#8b5cf6" font-weight="700" letter-spacing="1">NAMES</text>
+    <text x="430" y="116" fill="#8b5cf6" font-weight="700" letter-spacing="1">ROL</text>
+    <line x1="32" y1="124" x2="968" y2="124" stroke="#30363d"/>
+    <g clip-path="url(#r0)">
+      <rect x="32" y="130" width="936" height="26" rx="6" fill="#3b82f6" fill-opacity=".06"/>
+      <circle cx="52" cy="143" r="5" fill="#3b82f6"><animate attributeName="opacity" values="1;.35;1" dur="1.50s" repeatCount="indefinite"/></circle>
+      <text x="72" y="148" fill="#e6edf3">nginx-proxy-manager</text>
+      <text x="430" y="148" fill="#8b949e">Proxy inverso</text></g><g clip-path="url(#r1)">
+      <rect x="32" y="160" width="936" height="26" rx="6" fill="#22c55e" fill-opacity=".03"/>
+      <circle cx="52" cy="173" r="5" fill="#22c55e"><animate attributeName="opacity" values="1;.35;1" dur="1.67s" repeatCount="indefinite"/></circle>
+      <text x="72" y="178" fill="#e6edf3">adguard-home</text>
+      <text x="430" y="178" fill="#8b949e">DNS local y filtrado</text></g><g clip-path="url(#r2)">
+      <rect x="32" y="190" width="936" height="26" rx="6" fill="#06b6d4" fill-opacity=".06"/>
+      <circle cx="52" cy="203" r="5" fill="#06b6d4"><animate attributeName="opacity" values="1;.35;1" dur="1.84s" repeatCount="indefinite"/></circle>
+      <text x="72" y="208" fill="#e6edf3">portainer</text>
+      <text x="430" y="208" fill="#8b949e">Gestión de contenedores</text></g><g clip-path="url(#r3)">
+      <rect x="32" y="220" width="936" height="26" rx="6" fill="#8b5cf6" fill-opacity=".03"/>
+      <circle cx="52" cy="233" r="5" fill="#8b5cf6"><animate attributeName="opacity" values="1;.35;1" dur="2.01s" repeatCount="indefinite"/></circle>
+      <text x="72" y="238" fill="#e6edf3">homepage-user</text>
+      <text x="430" y="238" fill="#8b949e">Panel de usuario</text></g><g clip-path="url(#r4)">
+      <rect x="32" y="250" width="936" height="26" rx="6" fill="#8b5cf6" fill-opacity=".06"/>
+      <circle cx="52" cy="263" r="5" fill="#8b5cf6"><animate attributeName="opacity" values="1;.35;1" dur="2.18s" repeatCount="indefinite"/></circle>
+      <text x="72" y="268" fill="#e6edf3">homepage-admin</text>
+      <text x="430" y="268" fill="#8b949e">Panel de administración</text></g><g clip-path="url(#r5)">
+      <rect x="32" y="280" width="936" height="26" rx="6" fill="#3b82f6" fill-opacity=".03"/>
+      <circle cx="52" cy="293" r="5" fill="#3b82f6"><animate attributeName="opacity" values="1;.35;1" dur="2.35s" repeatCount="indefinite"/></circle>
+      <text x="72" y="298" fill="#e6edf3">nextcloud</text>
+      <text x="430" y="298" fill="#8b949e">Nube personal</text></g><g clip-path="url(#r6)">
+      <rect x="32" y="310" width="936" height="26" rx="6" fill="#94a3b8" fill-opacity=".06"/>
+      <circle cx="52" cy="323" r="5" fill="#94a3b8"><animate attributeName="opacity" values="1;.35;1" dur="2.52s" repeatCount="indefinite"/></circle>
+      <text x="72" y="328" fill="#e6edf3">vaultwarden</text>
+      <text x="430" y="328" fill="#8b949e">Gestor de contraseñas</text></g><g clip-path="url(#r7)">
+      <rect x="32" y="340" width="936" height="26" rx="6" fill="#f59e0b" fill-opacity=".03"/>
+      <circle cx="52" cy="353" r="5" fill="#f59e0b"><animate attributeName="opacity" values="1;.35;1" dur="2.69s" repeatCount="indefinite"/></circle>
+      <text x="72" y="358" fill="#e6edf3">nocodb</text>
+      <text x="430" y="358" fill="#8b949e">Bases de datos con interfaz visual</text></g><g clip-path="url(#r8)">
+      <rect x="32" y="370" width="936" height="26" rx="6" fill="#22c55e" fill-opacity=".06"/>
+      <circle cx="52" cy="383" r="5" fill="#22c55e"><animate attributeName="opacity" values="1;.35;1" dur="2.86s" repeatCount="indefinite"/></circle>
+      <text x="72" y="388" fill="#e6edf3">kopia</text>
+      <text x="430" y="388" fill="#8b949e">Copias de seguridad</text></g><g clip-path="url(#r9)">
+      <rect x="32" y="400" width="936" height="26" rx="6" fill="#4ade80" fill-opacity=".03"/>
+      <circle cx="52" cy="413" r="5" fill="#4ade80"><animate attributeName="opacity" values="1;.35;1" dur="3.03s" repeatCount="indefinite"/></circle>
+      <text x="72" y="418" fill="#e6edf3">minecraft</text>
+      <text x="430" y="418" fill="#8b949e">Servidor con mods</text></g>
+  </g>
+</svg>
